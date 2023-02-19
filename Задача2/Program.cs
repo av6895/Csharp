@@ -10,11 +10,11 @@ Console.Write("Введите второе число: ");
 int numberB =int.Parse(Console.ReadLine()!);
 if(numberA > numberB)
 {
-  int max = numberA;
+  //int max = numberA; не нужно
   Console.WriteLine("max  = " + numberA);
 }
 else
 {
-  int max = numberB;
+  //int max = numberB; не нужно
   Console.WriteLine("max = " + numberB);
 }

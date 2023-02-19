@@ -6,7 +6,7 @@
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
 
-for(int i = 2; i < number;  i++) 
+for(int i = 2; i <= number;  i++) // <= чтобы до четного числа включительно
 {
   
   if (i % 2 == 0)
