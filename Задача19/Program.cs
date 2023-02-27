@@ -34,24 +34,42 @@ else
 
 
 
+//рассмотрели вариант решения из другой группы
 
 
-// Console.WriteLine("Введите пятизначное число: ");
-// int N = int.Parse(Console.ReadLine()!);
+// int Prompt(string message)
+// {
+//   Console.Write(message);
+//   string value = Console.ReadLine();
+//   int number = Convert.ToInt32(value);
+//   return number;
+// }
 
-// int N1 = 0;
-// // while(N > 0)
-// // {
-// //   N1 = N1* 10 + N % 10;
-// //   N /= 10;
-// // }
+// int ReverseNumber(int a)
+// {
+//   int revNum = 0;
+//   int temp = a;                        //12321
+//   while (temp > 0)
+//   {
+//     revNum = revNum * 10 + temp % 10;  //0+1 //10+2=12 //120+3=123 // 1230+2 // 12320 +1 // 12321
+//     temp /= 10;                        //            1232      123         12         1          0
 
-// // if( N=N1)
-// // {
-// //   Console.WriteLine("да");
-// // }
-// // else
-// // {
-// //   Console.WriteLine("нет");
-// // }
+//   }
+// return revNum;
+// }
+
+// int a = Prompt("Введите 5-и значное число: ");
+// int reversed = ReverseNumber(a);
+
+// if (a > 9999 && a < 1000000)
+// {
+//   if (reversed == a)
+//   {
+//     Console.WriteLine("Число является палиндромом.");
+//   }
+//   else
+//   {
+//   Console.WriteLine("Число НЕ является палиндромом.");
+//   }
+// }
 
